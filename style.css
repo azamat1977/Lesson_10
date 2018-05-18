@@ -1,0 +1,122 @@
+
+body, html {
+    width: 100%;
+    height:100%;
+    margin: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("data:image/jpeg;base64,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");
+  }
+
+.blog {
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .toppane {
+    width: 100%;
+    height: 100px;
+    border-collapse: collapse;
+    text-align: center;  
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .leftpane {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://images.unsplash.com/photo-1456083334823-6e5bc7132162?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=207aad50fa50d6b612ffcd2a04358591&auto=format&fit=crop&w=667&q=80");
+}
+    
+  .rightpane {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: right;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-image: url("https://i2.wp.com/beebom.com/wp-content/uploads/2014/05/commentluv.gif?resize=500%2C300");
+    background-position: top;
+}
+
+.dropbtn {
+    background-color: rgb(150, 213, 238);
+    color: black;
+    padding: 25px;
+    font-size: 25px;
+    border: solid 2px red;
+    border-radius: 15px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+  
+    .tp {
+        width: 100%;
+        height: 150px;
+        border-collapse: collapse;
+        text-align: center;  
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+
+      }
+    
+    .lp img {
+        width: 35%;
+        height: 50%;
+        float: left;
+    }
+        
+    .rp {
+        width: 35%;
+        height: 50%;
+        float: right;
+      }
+
+    .center img {
+        width: 30%;
+        height: 30%;
+        top: 0px;
+        position: relative;
+        float: left;
+    }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="tp">
+    <div id="go_back">
+    <a href="index.html" target="">Go back to Main page</a>
+</div> 
+
+<div class="center">
+        <a href='#'><img src='screenshotAtUploadCC_1526628737002.png' /></a>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('a').click(function () {
+            var o=$(this).parent();
+            var url=o.find('img').attr('src');
+            var html='<a href="#" class="center"><img src="'+url+'" /></a>'
+            o.append(html);
+            o=o.find('.center');
+            o.animate({width:'50%',height:'50%'});
+            o.click(function () {
+                $(this).remove();
+            });
+        });
+    });
+    </script>
+</body>
+
+</html>
